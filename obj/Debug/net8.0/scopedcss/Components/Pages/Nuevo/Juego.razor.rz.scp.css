@@ -1,0 +1,62 @@
+td[b-y3eqfwy47x], table[b-y3eqfwy47x] {
+    border: 1px solid black;
+}
+h1[b-y3eqfwy47x], h3[b-y3eqfwy47x], p[b-y3eqfwy47x] {
+    text-align: center;
+}
+table[b-y3eqfwy47x] {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(yellow, blue, red);
+}
+td[b-y3eqfwy47x] {
+    width: 20px;
+    height: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+#decision *[b-y3eqfwy47x] {
+    margin: 2px;
+}
+.centro[b-y3eqfwy47x] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vacio[b-y3eqfwy47x] {
+    background-color: gray;
+}
+.vacio:hover[b-y3eqfwy47x] {
+    background-color: gainsboro;
+}
+.tocado[b-y3eqfwy47x] {
+    background-color: gainsboro;
+}
+.mina[b-y3eqfwy47x] {
+    background-color: yellow;
+}
+
+.uno[b-y3eqfwy47x] {
+    color: blue;
+}
+.dos[b-y3eqfwy47x] {
+    color: green;
+}
+.tres[b-y3eqfwy47x] {
+    color: red;
+}
+.cuatro[b-y3eqfwy47x] {
+    color: purple;
+}
+.cinco[b-y3eqfwy47x] {
+    color: brown;
+}
+.seis[b-y3eqfwy47x] {
+    color: darkcyan;
+}
+.siete[b-y3eqfwy47x] {
+    color: black;
+}
+.ocho[b-y3eqfwy47x] {
+    color: gray;
+}

@@ -1,0 +1,34 @@
+@page "/Juego"
+@rendermode InteractiveServer
+
+<h1>Buscaminas</h1>
+<h3>Bombas encontradas: @Bombas</h3>
+<p>Tipo de dificultad: @Actual</p>
+<p>Columnas: @Columnas</p>
+<p>Filas: @Filas</p>
+<p>Bombas: @BombasTotales</p>
+<div id="decision" class="centro">
+    <label for="dificultad">Dificultad: </label>
+    <InputSelect name="dificultad" id="dificultad" @bind-Value=Actual>
+        <option value="@Opciones.Fácil">@Opciones.Fácil</option>
+        <option value="@Opciones.Media">@Opciones.Media</option>
+        <option value="@Opciones.Difícil">@Opciones.Difícil</option>
+    </InputSelect>
+    <button type="button" onclick="@Reiniciar">Elegir</button>
+</div><br/>
+<div class="centro">
+    <button type="button" onclick="@Reiniciar">Reiniciar</button>
+</div>
+<br>
+
+<table oncontextmenu="return false;" id="tablero">
+    @for (int i = 1; i <= Filas; i++)
+    {
+        <tr>
+            @for (int j = 1; j <= Columnas; j++)
+            {
+                <td></td>
+            }
+        </tr>
+    }
+</table>
